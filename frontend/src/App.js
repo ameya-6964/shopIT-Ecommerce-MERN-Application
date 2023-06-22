@@ -65,7 +65,8 @@ function App() {
               path="/me"
               element={
                 <ProtectedRoute>
-                  <Profile />
+                  {" "}
+                  <Profile />{" "}
                 </ProtectedRoute>
               }
               exact
@@ -74,7 +75,8 @@ function App() {
               path="/me/update"
               element={
                 <ProtectedRoute>
-                  <UpdateProfile />
+                  {" "}
+                  <UpdateProfile />{" "}
                 </ProtectedRoute>
               }
               exact
@@ -83,7 +85,8 @@ function App() {
               path="/password/update"
               element={
                 <ProtectedRoute>
-                  <UpdatePassword />
+                  {" "}
+                  <UpdatePassword />{" "}
                 </ProtectedRoute>
               }
               exact
@@ -98,7 +101,8 @@ function App() {
               path="/shipping"
               element={
                 <ProtectedRoute>
-                  <Shipping />
+                  {" "}
+                  <Shipping />{" "}
                 </ProtectedRoute>
               }
               exact
@@ -107,7 +111,8 @@ function App() {
               path="/success"
               element={
                 <ProtectedRoute>
-                  <OrderSuccess />
+                  {" "}
+                  <OrderSuccess />{" "}
                 </ProtectedRoute>
               }
               exact
@@ -116,7 +121,8 @@ function App() {
               path="/order/confirm"
               element={
                 <ProtectedRoute>
-                  <ConfirmOrder />
+                  {" "}
+                  <ConfirmOrder />{" "}
                 </ProtectedRoute>
               }
             />
@@ -124,7 +130,8 @@ function App() {
               path="/orders/me"
               element={
                 <ProtectedRoute>
-                  <ListOrders />
+                  {" "}
+                  <ListOrders />{" "}
                 </ProtectedRoute>
               }
             />
@@ -132,7 +139,8 @@ function App() {
               path="/order/:id"
               element={
                 <ProtectedRoute>
-                  <OrderDetails />
+                  {" "}
+                  <OrderDetails />{" "}
                 </ProtectedRoute>
               }
             />
@@ -158,10 +166,11 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <Dashboard />
+                {" "}
+                <Dashboard />{" "}
               </ProtectedRoute>
             }
-          />
+          />{" "}
         </Routes>
         <Routes>
           <Route
@@ -169,10 +178,11 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <ProductsList />
+                {" "}
+                <ProductsList />{" "}
               </ProtectedRoute>
             }
-          />
+          />{" "}
         </Routes>
         <Routes>
           <Route
@@ -180,10 +190,11 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <NewProduct />
+                {" "}
+                <NewProduct />{" "}
               </ProtectedRoute>
             }
-          />
+          />{" "}
         </Routes>
         <Routes>
           <Route
@@ -191,10 +202,11 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <UpdateProduct />
+                {" "}
+                <UpdateProduct />{" "}
               </ProtectedRoute>
             }
-          />
+          />{" "}
         </Routes>
         <Routes>
           <Route
@@ -202,10 +214,11 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <OrdersList />
+                {" "}
+                <OrdersList />{" "}
               </ProtectedRoute>
             }
-          />
+          />{" "}
         </Routes>
         <Routes>
           <Route
@@ -213,10 +226,11 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <ProcessOrder />
+                {" "}
+                <ProcessOrder />{" "}
               </ProtectedRoute>
             }
-          />
+          />{" "}
         </Routes>
         <Routes>
           <Route
@@ -224,7 +238,8 @@ function App() {
             isAdmin={true}
             element={
               <ProtectedRoute>
-                <UsersList />
+                {" "}
+                <UsersList />{" "}
               </ProtectedRoute>
             }
           />{" "}
