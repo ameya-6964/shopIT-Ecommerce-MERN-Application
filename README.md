@@ -20,21 +20,36 @@
 - Node.js
 - Stripe
 
+### Install MongoDB Community Server
+
+```
+https://www.mongodb.com/try/download/community
+```
+
+### Install MongoDB Compass
+
+```
+https://downloads.mongodb.com/compass/mongodb-compass-1.38.0-win32-x64.exe
+```
+
 ### Env Variables
 
+Rename configFiles.env to config.env in backend/config folder
+
 Add your config variables values in the config.env file in backend/config folder
+
+### Install Dependencies (Backend)
+
+```
+cd backend
+npm i --force
+```
 
 ### Install Dependencies (Frontend)
 
 ```
 cd frontend
-npm i
-```
-
-### Install Dependencies (Backend)
-
-```
-npm i
+npm i --force
 ```
 
 ### Seed Database
