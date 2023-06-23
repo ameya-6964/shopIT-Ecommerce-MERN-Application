@@ -48,31 +48,37 @@ Add your config variables values in the config.env file in backend/config folder
 * JWT_EXPIRES_TIME = 7d (Any Random Value)
 * COOKIE_EXPIRES_TIME = 7 (Any Random Value)
 
-> > Create Account On https://cloudinary.com
+### For Cloudinary Config
 
-> > ![Alt text](<cloudinary API.png>)
+- Create Account On https://cloudinary.com
 
-> CLOUDINARY_CLOUD_NAME =
-> CLOUDINARY_API_KEY =
-> CLOUDINARY_API_SECRET =
+- ![Alt text](<cloudinary API.png>)
 
-> > Create Account On https://stripe.com/en-in
+- CLOUDINARY_CLOUD_NAME =
+- CLOUDINARY_API_KEY =
+- CLOUDINARY_API_SECRET =
 
-> > ![Alt text](<Stripe API.png>)
+### For Stripe Config
 
-> STRIPE_SECRET_KEY =
-> STRIPE_API_KEY =
+- Create Account On https://stripe.com/en-in
 
-> > Create Account On https://mailtrap.io/
+- ![Alt text](<Stripe API.png>)
 
-> > ![Alt text](<mailtrap API.png>)
+- STRIPE_SECRET_KEY =
+- STRIPE_API_KEY =
 
-> SMTP_HOST =
-> SMTP_PORT =
-> SMTP_EMAIL =
-> SMTP_PASSWORD =
-> SMTP_FROM_EMAIL = noreply@shopit.com
-> SMTP_FROM_NAME = shopit
+### For Mailtrap Config
+
+- Create Account On https://mailtrap.io/
+
+- ![Alt text](<mailtrap API.png>)
+
+- SMTP_HOST =
+- SMTP_PORT =
+- SMTP_EMAIL =
+- SMTP_PASSWORD =
+- SMTP_FROM_EMAIL = noreply@shopit.com
+- SMTP_FROM_NAME = shopit
 
 ### Install Dependencies (Backend)
 
